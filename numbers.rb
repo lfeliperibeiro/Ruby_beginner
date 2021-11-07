@@ -1,11 +1,13 @@
-#number
-#existem dois tipos de numbers em ruby: Integer e Float
+# frozen_string_literal: true
+
+# number
+# existem dois tipos de numbers em ruby: Integer e Float
 
 
 p 42.class
 p 42.12.class
 
-#O Ruby ignora o underline em number
+# O Ruby ignora o underline em number
 puts 123_500
 
 # A soma de um Integer com um Float sempre vai devolver um Float

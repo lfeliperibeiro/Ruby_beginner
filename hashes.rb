@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 # hashes é uma estrutura de chave e valor
 # A chave desse hash é um objeto
 
 h = {}
-h[:name] = "Felipe"
+h[:name] = 'Felipe'
 h[:age] = 38
 
 p h

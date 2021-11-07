@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # No Ruby tem duas formas de chamar um array
 
 # list = []
@@ -7,11 +9,11 @@ list = [1, 2, 3, 4, 5]
 
 p list[0]
 
-#Para inserir um novo item basta usar :
+# Para inserir um novo item basta usar :
 
 p list << 6
 
-#Or
+# Or
 
 p list.append(7)
 

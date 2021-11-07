@@ -1,15 +1,17 @@
-nome = 'Felipe'
+# frozen_string_literal: true
 
-mensagem = "Bem vindo #{nome}"
+name = 'Felipe'
 
-puts mensagem
+message = "Bem vindo #{name}"
 
-mensagem2 = <<~TXT
-  Ola #{nome}
+puts message
+
+message2 = <<~TXT
+  Ola #{name}
 
   Bem vindo!
 TXT
 
-puts mensagem2
+puts message2
 
-puts mensagem.length
+puts message.length
